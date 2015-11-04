@@ -10,3 +10,6 @@ ol > li:first-child {
 .red {
 	color:red;
 }
+a {
+    font-color: #f3843e;
+}
