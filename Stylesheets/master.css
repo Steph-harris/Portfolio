@@ -1,0 +1,12 @@
+body {
+	background-color: gray
+}
+h1, h2, h3, body {
+	font-family: 'Ultra', serif
+}
+ol > li:first-child {
+  background-color: green
+}
+.red {
+	color:red;
+}
