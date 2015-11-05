@@ -1,0 +1,26 @@
+body {
+	background-color: #fefefe
+}
+
+h1, h2, h3, body {
+	font-family: 'Ultra', serif
+}
+
+ol > li:first-child {
+  background-color: green
+}
+
+.red {
+	color:red;
+}
+
+a {
+    color: #f3843e;
+}
+
+/*#Contact {
+	background: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11149307_960663…7008243973284878144_n.jpg?oh=6d34db54647d0e9391be04e76292d757&oe=56BDB6AB');
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: right;
+ }*/
