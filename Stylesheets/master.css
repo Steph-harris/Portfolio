@@ -2,14 +2,14 @@ body {
 	background-color: #fefefe
 }
 
-h1, h2, h3, body {
+h2, h3, body {
 	font-family: 'Ultra', serif
 }
 
 h1 {
 	font-size: 5em;
 	text-align: center;
-	padding-top: 15%;
+	padding-top: 10%;
 }
 
 ol > li:first-child {
@@ -22,12 +22,29 @@ ol > li:first-child {
   text-align: center;
 }
 
+#home p {
+	font-size: 2em;
+}
+nav > ul > li {
+	font-size: 1.5em;
+	padding-bottom: 8px;
+	list-style: none;
+}
+
 .red {
-	color:red;
+	color:#f3843e;
 }
 
 a {
     color: #f3843e;
+}
+
+a:visited {
+	color:#90AA45;
+}
+
+a:hover {
+	color:#fff;
 }
 
 #contact {
