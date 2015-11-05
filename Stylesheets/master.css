@@ -6,8 +6,20 @@ h1, h2, h3, body {
 	font-family: 'Ultra', serif
 }
 
+h1 {
+	font-size: 5em;
+	text-align: center;
+	padding-top: 15%;
+}
+
 ol > li:first-child {
   background-color: green
+}
+#home {
+	background-image: url("../img/Gorge.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
 }
 
 .red {
@@ -18,9 +30,18 @@ a {
     color: #f3843e;
 }
 
-/*#Contact {
-	background: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11149307_960663…7008243973284878144_n.jpg?oh=6d34db54647d0e9391be04e76292d757&oe=56BDB6AB');
-  background-size: inherit;
+#contact {
+	background-image: url("../img/selfie.jpg");
+  background-size: 65%;
   background-repeat: no-repeat;
   background-position: right;
- }*/
+  opacity: .8;
+  /*width: 100%*/
+ }
+
+ #contact p {
+ 	padding-top: 13px;
+ }
+#contact form {
+	padding-bottom: 10%;
+}
