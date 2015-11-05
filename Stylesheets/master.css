@@ -10,7 +10,7 @@ h3 {
 	font-style: italic;
 }
 #home {
-	background-image: url("../img/bridge.jpg");
+	background-image: url("../Img/bridge.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
@@ -61,7 +61,7 @@ p > a:hover, .bnav a:hover {
 }
 
 #contact {
-	background-image: url("../img/selfie.jpg");
+	background-image: url("../Img/selfie.jpg");
   background-size: 65%;
   background-repeat: no-repeat;
   background-position: right;
@@ -78,5 +78,5 @@ p > a:hover, .bnav a:hover {
 	background-color: #F0F0F0;
 }
 #fun, .blog {
-	background-image: url("../img/Splashmin.jpg");
+	background-image: url("../Img/Splashmin.jpg");
 }
