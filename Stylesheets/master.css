@@ -1,40 +1,42 @@
 body {
-	background-color: #fefefe
-}
-
-h2, h3, body {
+	background-color: #fefefe;
 	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 22px
 }
-
-h1 {
-	font-size: 3.5em;
-	text-align: center;
-	padding-top: 10%;
-	margin-bottom: 0;
+h2 {
+	text-shadow: 1px 1px gray;
 }
-
-ol > li:first-child {
-  background-color: green
+h3 {
+	font-style: italic;
 }
 #home {
 	background-image: url("../img/bridge.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
+  color: #F0F0F0
 }
 
 #home h1 {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+	text-align: center;
+	padding-top: 10%;
+	margin-bottom: 0;
 }
 
 #home p {
 	font-size: 1.5em;
+	color: #fff;
 }
 nav > ul > li {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	padding-bottom: 12px;
 	list-style: none;
+}
+
+table {
+	font-size: larger;
 }
 
 .red {
@@ -42,15 +44,20 @@ nav > ul > li {
 }
 
 a {
-    color: #f3843e;
+	color: #CE6F2D;
+	text-decoration: none;
 }
 
 a:visited {
-	color:#90AA45;
+	color:#2A2E53;
 }
 
 a:hover {
 	color:#fff;
+}
+
+p > a:hover {
+  color:#3383AD;
 }
 
 #contact {
@@ -59,7 +66,6 @@ a:hover {
   background-repeat: no-repeat;
   background-position: right;
   opacity: .8;
-  /*width: 100%*/
  }
 
  #contact p {
@@ -67,4 +73,10 @@ a:hover {
  }
 #contact form {
 	padding-bottom: 8%;
+}
+#about, #projects {
+	background-color: #F0F0F0;
+}
+#fun {
+	background-image: url("../img/Splashmin.jpg");
 }
