@@ -74,6 +74,10 @@ p > a:hover, .bnav a:hover {
 #contact form {
 	padding-bottom: 8%;
 }
+.info {
+	position: relative;
+	top: 95px;
+}
 #about, #projects {
 	background-color: #F0F0F0;
 }
