@@ -3,6 +3,9 @@ body {
 	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 22px
 }
+.container-fluid {
+  padding: 0;
+}
 h2 {
 	text-shadow: 1px 1px gray;
 }
@@ -31,7 +34,7 @@ h3 {
 }
 nav > ul > li {
 	font-size: 1.5em;
-	padding-bottom: 12px;
+	padding-bottom: 6px;
 	list-style: none;
 }
 
