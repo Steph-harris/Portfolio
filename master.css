@@ -1,26 +1,86 @@
 body {
-	background-color: #fefefe
+	background-color: #fefefe;
+	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
+  font-size: 22px
+}
+h2 {
+	text-shadow: 1px 1px gray;
+}
+h3 {
+	font-style: italic;
+}
+#home {
+	background-image: url("../Img/bridge.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: #F0F0F0
 }
 
-h1, h2, h3, body {
-	font-family: 'Ultra', serif
+#home h1 {
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 3.5em;
+	text-align: center;
+	padding-top: 10%;
+	margin-bottom: 0;
 }
 
-ol > li:first-child {
-  background-color: green
+#home p {
+	font-size: 1.5em;
+	color: #fff;
+}
+nav > ul > li {
+	font-size: 1.5em;
+	padding-bottom: 12px;
+	list-style: none;
+}
+
+table {
+	font-size: larger;
 }
 
 .red {
-	color:red;
+	color:#f3843e;
 }
 
 a {
-    color: #f3843e;
+	color: #CE6F2D;
+	text-decoration: none;
 }
 
-/*#Contact {
-	background: url('https://scontent-iad3-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/11149307_960663…7008243973284878144_n.jpg?oh=6d34db54647d0e9391be04e76292d757&oe=56BDB6AB');
-  background-size: inherit;
+a:visited {
+	color:#2A2E53;
+}
+
+a:hover {
+	color:#fff;
+}
+
+p > a:hover, .bnav a:hover {
+  color:#3383AD;
+}
+
+#contact {
+	background-image: url("../Img/selfie.jpg");
+  background-size: 65%;
   background-repeat: no-repeat;
   background-position: right;
- }*/
+  opacity: .8;
+ }
+
+ #contact p {
+ 	padding-top: 13px;
+ }
+#contact form {
+	padding-bottom: 8%;
+}
+.info {
+	position: relative;
+	top: 95px;
+}
+#about, #projects {
+	background-color: #F0F0F0;
+}
+#fun, .blog {
+	background-image: url("../Img/Splashmin.jpg");
+}
