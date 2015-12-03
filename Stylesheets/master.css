@@ -4,7 +4,8 @@ body {
   font-size: 22px
 }
 .container-fluid {
-  padding: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 h2 {
 	text-shadow: 1px 1px gray;
@@ -31,6 +32,9 @@ h3 {
 #home p {
 	font-size: 1.5em;
 	color: #fff;
+}
+.homeList {
+  display: inline-block;
 }
 .homeList > ul > li {
 	font-size: 1.5em;
