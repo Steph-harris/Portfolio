@@ -15,7 +15,7 @@ h3 {
 }
 #home {
 	background-image: url("../Img/bridge.jpg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
   color: #F0F0F0
@@ -34,12 +34,16 @@ h3 {
 	color: #fff;
 }
 .homeList {
+  margin-top: 7px;
   display: inline-block;
 }
 .homeList > ul > li {
 	font-size: 1.5em;
 	padding-bottom: 6px;
 	list-style: none;
+}
+.homeList > ul > li > a {
+  background-color: #CFBCB6;
 }
 
 table {
@@ -48,6 +52,10 @@ table {
 
 .red {
 	color:#f3843e;
+}
+
+ul.red  {
+  padding-left: 0;
 }
 
 a {
@@ -67,10 +75,14 @@ p > a:hover, .bnav a:hover {
   color:#3383AD;
 }
 
+.homeList > ul > li > a:hover {
+  background-color: #7C7B83;
+}
+
 #contact {
 	background-image: url("../Img/selfie.jpg");
-  background-size: 65%;
   background-repeat: no-repeat;
+  background-size: 65%;
   background-position: right;
   opacity: .8;
  }
