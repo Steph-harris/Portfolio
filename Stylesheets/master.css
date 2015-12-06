@@ -38,23 +38,34 @@ body {
 .affix-top,.affix{
   position: static;
 }
+.navbar-collapse.collapse {
+  padding-left: 0px;
+  padding-right: 0px;
 
+}
 @media (min-width: 379px) {
   #sidebar.affix-top {
     position: static;
     margin-top:20px;
-    width:195px;
+    max-width:195px;
     height: 100%;
   }
   
   #sidebar.affix {
     position: fixed;
     top:20px;
-    width:195px;
+    max-width:195px;
     height: 100%;
   }
 }
-
+img {
+  position: relative;
+  margin-bottom: 20px;
+}
+#sidebar {
+  padding-left: 0;
+  font-size: 1.5em;
+}
 #sidebar li.active {
     border:0 #eee solid;
     border-right-width:4px;
@@ -70,6 +81,9 @@ h3 {
 }
 .full {
   padding-left: 0;
+  padding-right: 0;
+}
+#leftCol {
   padding-right: 0;
 }
 #home {

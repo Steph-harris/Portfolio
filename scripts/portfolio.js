@@ -1,6 +1,5 @@
 $(document).ready(function(){
    // make navbar only affix from about me section
-   debugger
  $('#sidebar').affix({
     offset: {
       top: 615
