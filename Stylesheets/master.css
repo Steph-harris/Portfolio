@@ -3,15 +3,74 @@ body {
 	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 22px
 }
+/*@media (min-width: 768px) {
+.navbar-collapse {
+  height: auto;
+  border-top: 0;
+  box-shadow: none;
+  max-height: none;
+  padding-left:0;
+  padding-right:0;
+}
+.navbar-collapse.collapse {
+  display: block !important;
+  width: auto !important;
+  padding-bottom: 0;
+  overflow: visible !important;
+}
+.navbar-collapse.in {
+  overflow-x: visible;
+}
+.navbar {
+  max-width:165px;
+  margin-right: 0;
+  margin-left: 0;
+} 
+
+.navbar-nav, .navbar-nav > li,
+.navbar-left,.navbar-right, .navbar-header
+{float:none !important;}
+
+.navbar-right .dropdown-menu {left:0;right:auto;}
+.navbar-collapse .navbar-nav.navbar-right:last-child {
+    margin-right: 0;
+}*/
+.affix-top,.affix{
+  position: static;
+}
+
+@media (min-width: 379px) {
+  #sidebar.affix-top {
+    position: static;
+    margin-top:20px;
+    width:195px;
+    height: 100%;
+  }
+  
+  #sidebar.affix {
+    position: fixed;
+    top:20px;
+    width:195px;
+    height: 100%;
+  }
+}
+
+#sidebar li.active {
+    border:0 #eee solid;
+    border-right-width:4px;
+}
+
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
 }
-/*h2 {
-	text-shadow: 1px 1px gray;
-}*/
+
 h3 {
 	font-style: italic;
+}
+.full {
+  padding-left: 0;
+  padding-right: 0;
 }
 #home {
 	background-image: url("../Img/bridge.jpg");
