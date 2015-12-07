@@ -1,0 +1,12 @@
+.top {
+  position: absolute;
+}
+.jumbotron .container-fluid {
+  top:0;
+  left:0;
+  width:100%;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-position:center;
+  background-size:cover;
+}
