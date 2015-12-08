@@ -1,7 +1,7 @@
 $(document).ready(function(){
   $.ajax({
     type:"GET",
-    url:"https://api.github.com/users/Steph-harris/repos",
+    url:"https://api.github.com/users/Steph-harris/repos?sort=pushed",
     success: function (userInfo) {
       // debugger;
       for(var i=0; i<userInfo.length; i++){
