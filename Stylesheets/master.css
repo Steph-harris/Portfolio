@@ -144,7 +144,7 @@ a:hover {
 	color:#fff;
 }
 
-p > a:hover, .bnav a:hover {
+p > a:hover, .bnav a:hover, .projects a:hover {
   color:#3383AD;
 }
 
@@ -175,4 +175,16 @@ p > a:hover, .bnav a:hover {
 }
 #fun, .blog {
 	background-image: url("../Img/Splashmin.jpg");
+}
+
+.projects .list-group{
+  padding-right: 0;
+}
+
+.projects .table-responsive {
+  padding-left: 5px;  
+}
+
+.projects table {
+  font-size: medium;
 }
