@@ -7,7 +7,7 @@ $(document).ready(function(){
   });
 
   var $body   = $(document.body);
-  var homeHeight = $('#home').outerHeight(true) + 10;
+  var homeHeight = $('#home').outerHeight(true);
 
   $body.scrollspy({
     target: '#leftCol',
