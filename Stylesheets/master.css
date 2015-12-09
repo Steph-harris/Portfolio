@@ -3,96 +3,15 @@ body {
 	font-family: 'Arial Rounded MT Bold', 'Helvetica Rounded', Arial, sans-serif;
   font-size: 22px
 }
-/*@media (min-width: 768px) {
-.navbar-collapse {
-  height: auto;
-  border-top: 0;
-  box-shadow: none;
-  max-height: none;
-  padding-left:0;
-  padding-right:0;
+h2 {
+	text-shadow: 1px 1px gray;
 }
-.navbar-collapse.collapse {
-  display: block !important;
-  width: auto !important;
-  padding-bottom: 0;
-  overflow: visible !important;
-}
-.navbar-collapse.in {
-  overflow-x: visible;
-}
-.navbar {
-  max-width:165px;
-  margin-right: 0;
-  margin-left: 0;
-} 
-
-.navbar-nav, .navbar-nav > li,
-.navbar-left,.navbar-right, .navbar-header
-{float:none !important;}
-
-.navbar-right .dropdown-menu {left:0;right:auto;}
-.navbar-collapse .navbar-nav.navbar-right:last-child {
-    margin-right: 0;
-}*/
-.affix-top,.affix{
-  position: static;
-}
-.navbar-collapse.collapse {
-  padding-left: 0px;
-  padding-right: 0px;
-
-}
-@media (min-width: 379px) {
-  #sidebar.affix-top {
-    position: static;
-    margin-top:20px;
-    max-width:195px;
-    height: 100%;
-  }
-  
-  #sidebar.affix {
-    position: fixed;
-    top:20px;
-    max-width:195px;
-    /*height: 100%;*/
-  }
-}
-img {
-  position: relative;
-  margin-bottom: 20px;
-}
-#sidebar {
-  padding-left: 5px;
-  font-size: 1.2em;
-}
-#sidebar li.active {
-    border:0 #eee solid;
-    border-right-width:4px;
-}
-#sidebar li {
-  width: 100%;
-}
-.container-fluid {
-  padding-right: 0;
-  padding-left: 0;
-}
-
 h3 {
 	font-style: italic;
 }
-.full {
-  padding-left: 0;
-  padding-right: 0;
-}
-#leftCol {
-  padding-right: 0;
-}
 #home {
 	background-image: url("../Img/bridge.jpg");
-  background-color: #C8B0AC;
-  background-blend-mode: darken;
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   text-align: center;
   color: #F0F0F0
@@ -107,21 +26,13 @@ h3 {
 }
 
 #home p {
-  margin-bottom: 36%;
 	font-size: 1.5em;
 	color: #fff;
 }
-.homeList {
-  margin-top: 7px;
-  display: inline-block;
-}
-.homeList > ul > li {
+nav > ul > li {
 	font-size: 1.5em;
-	padding-bottom: 6px;
+	padding-bottom: 12px;
 	list-style: none;
-}
-.homeList > ul > li > a {
-  background-color: #CFBCB6;
 }
 
 table {
@@ -130,10 +41,6 @@ table {
 
 .red {
 	color:#f3843e;
-}
-
-ul.red  {
-  padding-left: 0;
 }
 
 a {
@@ -149,18 +56,14 @@ a:hover {
 	color:#fff;
 }
 
-p > a:hover, .bnav a:hover, .projects a:hover {
+p > a:hover, .bnav a:hover {
   color:#3383AD;
 }
 
-.homeList > ul > li > a:hover {
-  background-color: #7C7B83;
-}
-
 #contact {
-	background-image: url("../Img/grayselfie.png");
-  background-repeat: no-repeat;
+	background-image: url("../Img/selfie.jpg");
   background-size: 65%;
+  background-repeat: no-repeat;
   background-position: right;
   opacity: .8;
  }
@@ -180,16 +83,4 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 }
 #fun, .blog {
 	background-image: url("../Img/Splashmin.jpg");
-}
-
-.projects .list-group{
-  padding-right: 0;
-}
-
-.projects .table-responsive {
-  padding-left: 5px;  
-}
-
-.projects table {
-  font-size: medium;
 }
