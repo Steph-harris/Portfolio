@@ -43,6 +43,9 @@ body {
   padding-right: 0px;
 
 }
+.nav>li>a {
+  padding: 15px 10px;
+}
 @media (min-width: 379px) {
   #sidebar.affix-top {
     position: static;
@@ -63,15 +66,20 @@ img {
   margin-bottom: 20px;
 }
 #sidebar {
-  padding-left: 5px;
   font-size: 1.2em;
 }
 #sidebar li.active {
     border:0 #eee solid;
-    border-right-width:4px;
 }
 #sidebar li {
   width: 100%;
+}
+#socIcons {
+  text-align: center;
+}
+#socIcons img {
+  width: 50px;
+  height: 50px;
 }
 .container-fluid {
   padding-right: 0;
@@ -125,7 +133,7 @@ h3 {
 }
 
 table {
-	font-size: larger;
+	font-size: inherit;
 }
 
 .red {
@@ -153,14 +161,10 @@ p > a:hover, .bnav a:hover, .projects a:hover {
   color:#3383AD;
 }
 
-.homeList > ul > li > a:hover {
-  background-color: #7C7B83;
-}
-
 #contact {
 	background-image: url("../Img/grayselfie.png");
   background-repeat: no-repeat;
-  background-size: 65%;
+  background-size: 75%;
   background-position: right;
   opacity: .8;
  }
