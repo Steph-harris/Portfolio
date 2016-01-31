@@ -2,7 +2,7 @@ $(document).ready(function(){
    // make navbar only affix from about me section
  $('#sidebar').affix({
     offset: {
-      top: 615
+      top: 715
     }
   });
 

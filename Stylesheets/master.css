@@ -90,20 +90,27 @@ h3 {
 	font-style: italic;
 }
 .full {
+  background-color: rgba(67,58,59,0.7);
+  display: table-cell;
+  vertical-align: middle;
   padding-left: 0;
   padding-right: 0;
+  padding-bottom: 100px;
 }
 #leftCol {
   padding-right: 0;
 }
 #home {
+  padding-left: 0;
+  padding-right: 0;
 	background-image: url("../Img/bridge.jpg");
   background-color: #C8B0AC;
   background-blend-mode: darken;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position:center center;
   text-align: center;
-  color: #F0F0F0
+  color: #F0F0F0;
 }
 
 #home h1 {
