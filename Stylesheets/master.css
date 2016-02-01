@@ -136,6 +136,25 @@ h3 {
 #skills{
   background-image: url("../Img/greyzz.png");
 }
+#skills h1{
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+ul{
+  list-style-type: none;
+}
+#list-1>ul>li, #list-2>ul>li, #list-3>ul>li, #list-4>ul>li{
+  height: 50px;
+  line-height: 40px;
+  margin-top: 30px;
+}
+li>img{
+  position: relative;
+  top: 8px;
+  height: 20px;
+  width: 20px;
+}
 .homeList {
   margin-top: 7px;
   display: inline-block;
