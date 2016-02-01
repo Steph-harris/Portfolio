@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Stephanie's Portfolio Page</title> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ultra">
   <link rel="stylesheet" type="text/css" href="Stylesheets/master.css">
   <link rel="stylesheet" type="text/css" href="Stylesheets/pic.css">
@@ -10,78 +12,68 @@
 <body>
   <!-- make collapsed navbar visible on small and xs screens -->
   <div class="container-fluid">
-    <div class ="col-xs-12" id="home"> 
+    <div class="col-xs-12" id="home"> 
       <div class="col-xs-12 full">         
           <div class="headInfo col-xs-12 col-sm-10 col-sm-offset-1">
             <h1>Stephanie Harris</h1>
-            <p>MEAN stack web developer located in central New Jersey</p>  
+            <p>MEAN stack web developer located in central NJ</p>  
+            <div id="socIcons">
+              <a href="https://www.linkedin.com/in/stephharris21" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/windev-contacts-2/512/linkedin-512.png" alt="Stephanie's Linkedin" title="LinkedIn" border="0">
+              </a>
+              <a href="https://github.com/Steph-harris" target="_blank"><img src="https://cdn2.iconfinder.com/data/icons/social-media-2053/32/github_social_media_share-512.png" alt="Stephanie's Github" title="Github" border="0"> 
+              </a>
+              <a href="http://stackoverflow.com/users/5072001/stephanie-harris" target="_blank"><img src="https://cdn4.iconfinder.com/data/icons/miu-flat-social/60/stackoverflow-128.png" alt="Stephanie's Stack" title="Stackoverflow" border="0">
+              </a>   
+              <a href="https://twitter.com/steph_harris21" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/yooicons_set01_socialbookmarks/512/social_twitter_box_blue.png" alt="Stephanie's Twitter" title="Twitter" border="0">
+              </a>     
+            </div>
           </div>  
       </div>
     </div>
-  
+  </div>
     <div class="row-fluid"> 
-      <div class="col-sm-2" id="leftCol">
-      <!-- make navbar sticky on left -->
-        <nav class="navbar navbar-default" id='sidebar'> 
-          <!-- Brand and toggle get grouped for better mobile display -->
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- Add a circle image -->
-            
-          </div>
-
-          <!-- Collect the nav links, forms, and other content for toggling -->
-          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <img src="Img/grayrcbpic.png" class="img-responsive">
-            <ul class="nav navbar-nav">
-
-              <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Fun Facts</a></li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects<span class="caret"></span></a>
-                <ul class="dropdown-menu">
-                  <li><a href="#">Github Log</a></li>
-                  <li><a href="#">Descriptions</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div><!--/.navbar-collapse -->  
-        </nav>
-      </div>
-    
-      <div class="col-xs-12 col-sm-10">
-        <section id="about">
+      <div class="col-xs-12" id="about">
+        <section>
           <h2>About Me</h2>
-          <h3>Experience</h3>
-          <p>I have spent the past decade of my life working towards and eventually becoming a <a href="http://worship.calvin.edu/resources/resource-library/job-description-1-director-of-music/" target="_blank">church music director</a>, but after working in the field for 5 years, I decided that it was time for a change. After following a few online tutorials and classes, I chose to become a professional <a href="http://money.usnews.com/careers/best-jobs/web-developer"> web developer </a>by enrolling in the inaugural cohort of the Rutgers Coding Bootcamp.</p>
-          <p>
-            When I complete this course I will be proficient in using:
-            <ul>
-              <li>Html and Css</li>
-              <li>Bootstrap</li>
-              <li>Javascript</li>
-              <li>JQuery</li>
-              <li>JSON and AJAX</li>
-              <li>Node.js</li>
-              <li>Databases like:
-                <ol>
-                  <li>MongoDB</li>
-                  <li>Mysql</li>
-                </ol>
-              </li>
-              
-              <li>Git version control</li>
-            </ul>
-          </p>
-
+          <p>I’m Stephanie Harris and I’ve recently left a career as a church music director to become a web developer.  I actually built my first website when I was 11, but it wasn’t until last year, when I signed up for an online coding bootcamp, that I seriously considered a career in tech. I knew that I would benefit more, and progress quicker, by participating in the more collaborative and immersive experience that an in person bootcamp like Rutgers’ offers. So I switched to Rutgers’ Coding Bootcamp where I’ve developed skills in front-end technologies like HTML, CSS, and Javascript, frameworks like Bootstrap, and Git version control.</p>
+        </section>
+      </div>
+    </div>
+    <div class="row-fluid"> 
+      <div class="col-xs-12" id="skills">
+        <div class="row">
+            <h2>Technological Skills</h2>
+              <div id="list-1" class="col-sm-6 col-md-3">
+                <ul>
+                  <li><i class="fa fa-html5"></i>HTML</li>
+                  <li><img alt="MySQL" src="/assets/icon-appointments-d1329d72927610403f9e0aeaeaa4e06d.png">MYSQL</li>
+                  <li><img alt="MongoDB" src="/assets/icon-exercises-06bc67a8144f958126787109c31c1af6.png">MongoDB</li>
+                  
+                </ul>
+              </div><!-- end column -->
+              <div id="list-2" class="col-sm-6 col-md-3">
+                <ul>
+                  <li><i class="fa fa-css3"></i>CSS</li>
+                  <li><img alt="Bootstrap" src="/assets/icon-bp-0f2501d7c81df5513c6b64b421ce35c5.png">Bootstrap</li>
+                  <li><img alt="AJAX" src="/assets/icon-sedentaries-1f1dc83041cc3d4d1874c7f98020520e.png">AJAX</li>
+                </ul>
+              </div><!-- end column -->
+              <div id="list-3" class="col-sm-6 col-md-3">
+                <ul>
+                 <li><img alt="Javascript" src="/assets/icon-eats-ad913e2ca29d8a95dc56843fb3b7c16a.png">Javascript</li>
+                 <li><img alt="jQuery" src="/assets/icon-injuries-33add7b3fc40cccdba8d866a368dda73.png">jQuery</li>
+                 <li><img alt="Node.js" src="/assets/icon-menstruations-dac51f114e2b44cd0dd8f19f7992427d.png">Node.js</li>
+               </ul>
+             </div><!-- end column -->
+             <div id="list-4" class="col-sm-6 col-md-3">
+              <ul>
+               <li><i class="fa fa-git"></i>Git</li>
+               <li><img alt="Firebase" src="/assets/icon-compression-14203874be5a9bc154ac557be275be84.png">Firebase</li>
+               <li><img alt="JSON" src="/assets/icon-temperature-fa331184f3e91928d34d5c755ff0d730.png">JSON</li>
+             </ul>
+           </div> <!-- end column -->
+         </div>
+        <section>
           <h3>Education</h3>
           <p>
             <table border="3">
@@ -115,7 +107,6 @@
         </section>
       </div> 
     </div>
-  </div>
 
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>

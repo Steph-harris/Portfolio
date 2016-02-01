@@ -75,6 +75,7 @@ img {
   width: 100%;
 }
 #socIcons {
+  margin-bottom: 36%;
   text-align: center;
 }
 #socIcons img {
@@ -122,9 +123,19 @@ h3 {
 }
 
 #home p {
-  margin-bottom: 36%;
 	font-size: 1.5em;
-	color: #fff;
+}
+.headInfo {
+  position: relative;
+  top: 76px;
+}
+#about{
+  padding: 5% 10%;
+  color: #fff;
+  background-color: #666F41;
+}
+#skills{
+  background-image: url("../Img/greyzz.png");
 }
 .homeList {
   margin-top: 7px;
@@ -186,7 +197,7 @@ p > a:hover, .bnav a:hover, .projects a:hover {
 	position: relative;
 	top: 95px;
 }
-#about, #projects {
+#projects {
 	background-color: #F0F0F0;
 }
 #fun, .blog {
